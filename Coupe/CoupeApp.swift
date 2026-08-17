@@ -12,20 +12,21 @@ import SwiftData
 struct CoupeApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            MediaProject.self,
+            Clip.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
         do {
             return try ModelContainer(for: schema, configurations: [modelConfiguration])
         } catch {
-            fatalError("Could not create ModelContainer: \(error)")
+            preconditionFailure("Could not create Coupe's data store: \(error.localizedDescription)")
         }
     }()
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LibraryView()
         }
         .modelContainer(sharedModelContainer)
     }
