@@ -1,11 +1,13 @@
 import AVKit
+import SwiftData
 import SwiftUI
 
 struct ClipDetailView: View {
     @Environment(\.modelContext) private var context
     @Bindable var clip: Clip
     let store: ManagedMediaStore, retry: () -> Void
-    @State private var player: AVPlayer?, shareURL: URL?
+    @State private var player: AVPlayer?
+    @State private var shareURL: URL?
 
     var body: some View {
         Form {

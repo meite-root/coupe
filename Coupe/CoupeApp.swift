@@ -10,6 +10,10 @@ import SwiftData
 
 @main
 struct CoupeApp: App {
+    init() {
+        AudioSessionService.activate()
+    }
+
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             MediaProject.self,

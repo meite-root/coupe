@@ -2,15 +2,22 @@ import Foundation
 import Testing
 @testable import Coupe
 
+@MainActor
 struct CoupeTests {
     @Test func timeFormatting() { #expect(TimeFormatter.string(65) == "1:05"); #expect(TimeFormatter.string(3_661) == "1:01:01") }
     @Test func normalSelection() {
-        var machine = SelectionMachine(); #expect(machine.begin(at: 2, duration: 10, ready: true))
-        #expect(machine.state == .pressing(startTime: 2)); #expect(machine.release(at: 5, duration: 10) == 2...5)
+        var machine = SelectionMachine()
+        let didBegin = machine.begin(at: 2, duration: 10, ready: true)
+        #expect(didBegin)
+        #expect(machine.state == .pressing(startTime: 2))
+        let range = machine.release(at: 5, duration: 10)
+        #expect(range == 2...5)
     }
     @Test func lockingReleaseAndStop() {
         var machine = SelectionMachine(); _ = machine.begin(at: 1, duration: 10, ready: true)
-        #expect(machine.drag(horizontal: 90, vertical: 4, threshold: 80)); #expect(machine.state == .locked(startTime: 1))
+        let didLock = machine.drag(horizontal: 90, vertical: 4, threshold: 80)
+        #expect(didLock)
+        #expect(machine.state == .locked(startTime: 1))
         #expect(machine.release(at: 4, duration: 10) == nil); #expect(machine.state == .locked(startTime: 1))
         #expect(machine.stop(at: 4, duration: 10) == 1...4)
     }

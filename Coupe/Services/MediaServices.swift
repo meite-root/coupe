@@ -68,7 +68,11 @@ struct ClipExportService: Sendable {
 @MainActor @Observable
 final class EditorPlaybackController {
     let player = AVPlayer()
-    var currentTime = 0.0, duration = 0.0, isPlaying = false, isReady = false, failureMessage: String?
+    var currentTime = 0.0
+    var duration = 0.0
+    var isPlaying = false
+    var isReady = false
+    var failureMessage: String?
     private var timeObserver: Any?
 
     func load(url: URL, duration: Double) {
@@ -87,5 +91,4 @@ final class EditorPlaybackController {
         if let timeObserver { player.removeTimeObserver(timeObserver); self.timeObserver = nil }
         player.pause(); player.replaceCurrentItem(with: nil); isReady = false; isPlaying = false
     }
-    deinit { if let timeObserver { player.removeTimeObserver(timeObserver) } }
 }

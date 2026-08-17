@@ -4,7 +4,8 @@ import UIKit
 struct SelectionControl: View {
     let state: SelectionState, currentTime: Double
     let begin: () -> Void, drag: (CGSize, CGFloat) -> Void, release: () -> Void, stop: () -> Void
-    @State private var didBeginGesture = false, translation: CGSize = .zero
+    @State private var didBeginGesture = false
+    @State private var translation: CGSize = .zero
 
     var body: some View {
         VStack(spacing: 12) {

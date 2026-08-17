@@ -7,8 +7,11 @@ struct LibraryView: View {
     @Environment(\.modelContext) private var context
     @Query(sort: \MediaProject.importedAt, order: .reverse) private var projects: [MediaProject]
     @State private var photoItem: PhotosPickerItem?
-    @State private var showFiles = false, showImportChoices = false, isImporting = false
-    @State private var pendingDeletion: MediaProject?, errorMessage: String?
+    @State private var showFiles = false
+    @State private var showImportChoices = false
+    @State private var isImporting = false
+    @State private var pendingDeletion: MediaProject?
+    @State private var errorMessage: String?
     private let store: ManagedMediaStore
 
     init() {

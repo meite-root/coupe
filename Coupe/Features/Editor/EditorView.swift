@@ -7,8 +7,11 @@ struct EditorView: View {
     @Environment(\.scenePhase) private var scenePhase
     @Bindable var project: MediaProject
     let store: ManagedMediaStore
-    @State private var playback = EditorPlaybackController(), machine = SelectionMachine()
-    @State private var selectionState: SelectionState = .idle, clipToDelete: Clip?, errorMessage: String?
+    @State private var playback = EditorPlaybackController()
+    @State private var machine = SelectionMachine()
+    @State private var selectionState: SelectionState = .idle
+    @State private var clipToDelete: Clip?
+    @State private var errorMessage: String?
 
     var body: some View {
         ScrollView {
