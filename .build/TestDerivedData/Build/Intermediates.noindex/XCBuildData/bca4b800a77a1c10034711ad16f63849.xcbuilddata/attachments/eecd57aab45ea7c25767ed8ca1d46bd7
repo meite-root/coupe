@@ -1,0 +1,29 @@
+{
+  "" : {
+    "diagnostics" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/CoupeUITests.build/Objects-normal/x86_64/CoupeUITests-primary.dia",
+    "emit-module-dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/CoupeUITests.build/Objects-normal/x86_64/CoupeUITests-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/CoupeUITests.build/Objects-normal/x86_64/CoupeUITests-primary-emit-module.dia",
+    "pch" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/CoupeUITests.build/Objects-normal/x86_64/CoupeUITests-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/CoupeUITests.build/Objects-normal/x86_64/CoupeUITests-primary.swiftdeps"
+  },
+  "/Users/hassanemeite/Documents/code/IOS/Coupe/CoupeUITests/CoupeUITests.swift" : {
+    "const-values" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/CoupeUITests.build/Objects-normal/x86_64/CoupeUITests.swiftconstvalues",
+    "dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/CoupeUITests.build/Objects-normal/x86_64/CoupeUITests.d",
+    "diagnostics" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/CoupeUITests.build/Objects-normal/x86_64/CoupeUITests.dia",
+    "index-unit-output-path" : "/Coupe.build/Debug-iphonesimulator/CoupeUITests.build/Objects-normal/x86_64/CoupeUITests.o",
+    "llvm-bc" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/CoupeUITests.build/Objects-normal/x86_64/CoupeUITests.bc",
+    "object" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/CoupeUITests.build/Objects-normal/x86_64/CoupeUITests.o",
+    "swift-dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/CoupeUITests.build/Objects-normal/x86_64/CoupeUITests.swiftdeps",
+    "swiftmodule" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/CoupeUITests.build/Objects-normal/x86_64/CoupeUITests~partial.swiftmodule"
+  },
+  "/Users/hassanemeite/Documents/code/IOS/Coupe/CoupeUITests/CoupeUITestsLaunchTests.swift" : {
+    "const-values" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/CoupeUITests.build/Objects-normal/x86_64/CoupeUITestsLaunchTests.swiftconstvalues",
+    "dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/CoupeUITests.build/Objects-normal/x86_64/CoupeUITestsLaunchTests.d",
+    "diagnostics" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/CoupeUITests.build/Objects-normal/x86_64/CoupeUITestsLaunchTests.dia",
+    "index-unit-output-path" : "/Coupe.build/Debug-iphonesimulator/CoupeUITests.build/Objects-normal/x86_64/CoupeUITestsLaunchTests.o",
+    "llvm-bc" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/CoupeUITests.build/Objects-normal/x86_64/CoupeUITestsLaunchTests.bc",
+    "object" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/CoupeUITests.build/Objects-normal/x86_64/CoupeUITestsLaunchTests.o",
+    "swift-dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/CoupeUITests.build/Objects-normal/x86_64/CoupeUITestsLaunchTests.swiftdeps",
+    "swiftmodule" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/CoupeUITests.build/Objects-normal/x86_64/CoupeUITestsLaunchTests~partial.swiftmodule"
+  }
+}

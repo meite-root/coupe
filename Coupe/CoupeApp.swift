@@ -11,13 +11,14 @@ import SwiftData
 @main
 struct CoupeApp: App {
     init() {
-        AudioSessionService.activate()
+        _ = AudioSessionService.activate()
     }
 
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             MediaProject.self,
             Clip.self,
+            MediaAnnotation.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 

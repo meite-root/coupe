@@ -1,0 +1,136 @@
+{
+  "source": "/Users/hassanemeite/Documents/code/IOS/Coupe/Coupe/Features/Library/LibraryView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Coupé",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 27
+        }
+      },
+      {
+        "comment": "",
+        "key": "Import Media",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 33
+        }
+      },
+      {
+        "comment": "",
+        "key": "Import Failed",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 42
+        }
+      },
+      {
+        "comment": "",
+        "key": "Delete Project?",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 43
+        }
+      },
+      {
+        "comment": "",
+        "key": "Import an audio or video file to start selecting clips.",
+        "location": {
+          "startingColumn": 139,
+          "startingLine": 24
+        }
+      },
+      {
+        "comment": "",
+        "key": "No Media Yet",
+        "location": {
+          "startingColumn": 62,
+          "startingLine": 24
+        }
+      },
+      {
+        "comment": "",
+        "key": "Importing…",
+        "location": {
+          "startingColumn": 41,
+          "startingLine": 30
+        }
+      },
+      {
+        "comment": "",
+        "key": "Import Media",
+        "location": {
+          "startingColumn": 58,
+          "startingLine": 30
+        }
+      },
+      {
+        "comment": "",
+        "key": "Choose Video from Photos",
+        "location": {
+          "startingColumn": 80,
+          "startingLine": 34
+        }
+      },
+      {
+        "comment": "",
+        "key": "Choose from Files",
+        "location": {
+          "startingColumn": 60,
+          "startingLine": 35
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 138,
+          "startingLine": 42
+        }
+      },
+      {
+        "comment": "",
+        "key": "Delete",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 44
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 89,
+          "startingLine": 44
+        }
+      },
+      {
+        "comment": "",
+        "key": "This removes the imported source and every exported clip from Coupé.",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 45
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@ • %lld clip%@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 55
+        }
+      },
+      {
+        "comment": "",
+        "key": "Delete",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 59
+        }
+      }
+    ]
+  },
+  "version": 1
+}

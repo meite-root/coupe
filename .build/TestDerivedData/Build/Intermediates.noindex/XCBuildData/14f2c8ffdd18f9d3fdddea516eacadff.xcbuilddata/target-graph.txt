@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+Target 'CoupeTests' in project 'Coupe'
+➜ Explicit dependency on target 'Coupe' in project 'Coupe'
+Target 'CoupeUITests' in project 'Coupe'
+➜ Explicit dependency on target 'Coupe' in project 'Coupe'
+Target 'Coupe' in project 'Coupe' (no dependencies)

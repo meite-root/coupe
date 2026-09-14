@@ -1,0 +1,72 @@
+{
+  "source": "/Users/hassanemeite/Documents/code/IOS/Coupe/Coupe/Features/Clips/ClipDetailView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Clip",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 14
+        }
+      },
+      {
+        "comment": "",
+        "key": "Playback",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 19
+        }
+      },
+      {
+        "comment": "",
+        "key": "Annotation",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 24
+        }
+      },
+      {
+        "comment": "",
+        "key": "Title",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 15
+        }
+      },
+      {
+        "comment": "",
+        "key": "Source range",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 16
+        }
+      },
+      {
+        "comment": "",
+        "key": "Duration",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 17
+        }
+      },
+      {
+        "comment": "",
+        "key": "Retry Export",
+        "location": {
+          "startingColumn": 61,
+          "startingLine": 22
+        }
+      },
+      {
+        "comment": "",
+        "key": "Share Clip",
+        "location": {
+          "startingColumn": 62,
+          "startingLine": 25
+        }
+      }
+    ]
+  },
+  "version": 1
+}

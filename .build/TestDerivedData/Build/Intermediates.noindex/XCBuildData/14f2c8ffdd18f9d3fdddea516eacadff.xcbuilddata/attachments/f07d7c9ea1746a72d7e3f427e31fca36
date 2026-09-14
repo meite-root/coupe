@@ -1,0 +1,159 @@
+{
+  "" : {
+    "diagnostics" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/Coupe-primary.dia",
+    "emit-module-dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/Coupe-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/Coupe-primary-emit-module.dia",
+    "pch" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/Coupe-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/Coupe-primary.swiftdeps"
+  },
+  "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/hassanemeite/Documents/code/IOS/Coupe/Coupe/Components/SharedViews.swift" : {
+    "const-values" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/SharedViews.swiftconstvalues",
+    "dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/SharedViews.d",
+    "diagnostics" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/SharedViews.dia",
+    "index-unit-output-path" : "/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/SharedViews.o",
+    "llvm-bc" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/SharedViews.bc",
+    "object" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/SharedViews.o",
+    "swift-dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/SharedViews.swiftdeps",
+    "swiftmodule" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/SharedViews~partial.swiftmodule"
+  },
+  "/Users/hassanemeite/Documents/code/IOS/Coupe/Coupe/Components/SourceVideoPlayerView.swift" : {
+    "const-values" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/SourceVideoPlayerView.swiftconstvalues",
+    "dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/SourceVideoPlayerView.d",
+    "diagnostics" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/SourceVideoPlayerView.dia",
+    "index-unit-output-path" : "/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/SourceVideoPlayerView.o",
+    "llvm-bc" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/SourceVideoPlayerView.bc",
+    "object" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/SourceVideoPlayerView.o",
+    "swift-dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/SourceVideoPlayerView.swiftdeps",
+    "swiftmodule" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/SourceVideoPlayerView~partial.swiftmodule"
+  },
+  "/Users/hassanemeite/Documents/code/IOS/Coupe/Coupe/CoupeApp.swift" : {
+    "const-values" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/CoupeApp.swiftconstvalues",
+    "dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/CoupeApp.d",
+    "diagnostics" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/CoupeApp.dia",
+    "index-unit-output-path" : "/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/CoupeApp.o",
+    "llvm-bc" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/CoupeApp.bc",
+    "object" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/CoupeApp.o",
+    "swift-dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/CoupeApp.swiftdeps",
+    "swiftmodule" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/CoupeApp~partial.swiftmodule"
+  },
+  "/Users/hassanemeite/Documents/code/IOS/Coupe/Coupe/Features/Annotations/AnnotationDetailView.swift" : {
+    "const-values" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/AnnotationDetailView.swiftconstvalues",
+    "dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/AnnotationDetailView.d",
+    "diagnostics" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/AnnotationDetailView.dia",
+    "index-unit-output-path" : "/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/AnnotationDetailView.o",
+    "llvm-bc" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/AnnotationDetailView.bc",
+    "object" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/AnnotationDetailView.o",
+    "swift-dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/AnnotationDetailView.swiftdeps",
+    "swiftmodule" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/AnnotationDetailView~partial.swiftmodule"
+  },
+  "/Users/hassanemeite/Documents/code/IOS/Coupe/Coupe/Features/Clips/ClipDetailView.swift" : {
+    "const-values" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/ClipDetailView.swiftconstvalues",
+    "dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/ClipDetailView.d",
+    "diagnostics" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/ClipDetailView.dia",
+    "index-unit-output-path" : "/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/ClipDetailView.o",
+    "llvm-bc" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/ClipDetailView.bc",
+    "object" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/ClipDetailView.o",
+    "swift-dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/ClipDetailView.swiftdeps",
+    "swiftmodule" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/ClipDetailView~partial.swiftmodule"
+  },
+  "/Users/hassanemeite/Documents/code/IOS/Coupe/Coupe/Features/Editor/EditorView.swift" : {
+    "const-values" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/EditorView.swiftconstvalues",
+    "dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/EditorView.d",
+    "diagnostics" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/EditorView.dia",
+    "index-unit-output-path" : "/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/EditorView.o",
+    "llvm-bc" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/EditorView.bc",
+    "object" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/EditorView.o",
+    "swift-dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/EditorView.swiftdeps",
+    "swiftmodule" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/EditorView~partial.swiftmodule"
+  },
+  "/Users/hassanemeite/Documents/code/IOS/Coupe/Coupe/Features/Editor/SelectionControl.swift" : {
+    "const-values" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/SelectionControl.swiftconstvalues",
+    "dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/SelectionControl.d",
+    "diagnostics" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/SelectionControl.dia",
+    "index-unit-output-path" : "/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/SelectionControl.o",
+    "llvm-bc" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/SelectionControl.bc",
+    "object" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/SelectionControl.o",
+    "swift-dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/SelectionControl.swiftdeps",
+    "swiftmodule" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/SelectionControl~partial.swiftmodule"
+  },
+  "/Users/hassanemeite/Documents/code/IOS/Coupe/Coupe/Features/Library/LibraryView.swift" : {
+    "const-values" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/LibraryView.swiftconstvalues",
+    "dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/LibraryView.d",
+    "diagnostics" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/LibraryView.dia",
+    "index-unit-output-path" : "/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/LibraryView.o",
+    "llvm-bc" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/LibraryView.bc",
+    "object" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/LibraryView.o",
+    "swift-dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/LibraryView.swiftdeps",
+    "swiftmodule" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/LibraryView~partial.swiftmodule"
+  },
+  "/Users/hassanemeite/Documents/code/IOS/Coupe/Coupe/Models/MediaAnnotation.swift" : {
+    "const-values" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/MediaAnnotation.swiftconstvalues",
+    "dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/MediaAnnotation.d",
+    "diagnostics" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/MediaAnnotation.dia",
+    "index-unit-output-path" : "/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/MediaAnnotation.o",
+    "llvm-bc" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/MediaAnnotation.bc",
+    "object" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/MediaAnnotation.o",
+    "swift-dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/MediaAnnotation.swiftdeps",
+    "swiftmodule" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/MediaAnnotation~partial.swiftmodule"
+  },
+  "/Users/hassanemeite/Documents/code/IOS/Coupe/Coupe/Models/MediaModels.swift" : {
+    "const-values" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/MediaModels.swiftconstvalues",
+    "dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/MediaModels.d",
+    "diagnostics" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/MediaModels.dia",
+    "index-unit-output-path" : "/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/MediaModels.o",
+    "llvm-bc" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/MediaModels.bc",
+    "object" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/MediaModels.o",
+    "swift-dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/MediaModels.swiftdeps",
+    "swiftmodule" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/MediaModels~partial.swiftmodule"
+  },
+  "/Users/hassanemeite/Documents/code/IOS/Coupe/Coupe/Services/AudioSessionService.swift" : {
+    "const-values" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/AudioSessionService.swiftconstvalues",
+    "dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/AudioSessionService.d",
+    "diagnostics" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/AudioSessionService.dia",
+    "index-unit-output-path" : "/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/AudioSessionService.o",
+    "llvm-bc" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/AudioSessionService.bc",
+    "object" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/AudioSessionService.o",
+    "swift-dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/AudioSessionService.swiftdeps",
+    "swiftmodule" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/AudioSessionService~partial.swiftmodule"
+  },
+  "/Users/hassanemeite/Documents/code/IOS/Coupe/Coupe/Services/ManagedMediaStore.swift" : {
+    "const-values" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/ManagedMediaStore.swiftconstvalues",
+    "dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/ManagedMediaStore.d",
+    "diagnostics" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/ManagedMediaStore.dia",
+    "index-unit-output-path" : "/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/ManagedMediaStore.o",
+    "llvm-bc" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/ManagedMediaStore.bc",
+    "object" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/ManagedMediaStore.o",
+    "swift-dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/ManagedMediaStore.swiftdeps",
+    "swiftmodule" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/ManagedMediaStore~partial.swiftmodule"
+  },
+  "/Users/hassanemeite/Documents/code/IOS/Coupe/Coupe/Services/MediaServices.swift" : {
+    "const-values" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/MediaServices.swiftconstvalues",
+    "dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/MediaServices.d",
+    "diagnostics" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/MediaServices.dia",
+    "index-unit-output-path" : "/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/MediaServices.o",
+    "llvm-bc" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/MediaServices.bc",
+    "object" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/MediaServices.o",
+    "swift-dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/MediaServices.swiftdeps",
+    "swiftmodule" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/MediaServices~partial.swiftmodule"
+  },
+  "/Users/hassanemeite/Documents/code/IOS/Coupe/Coupe/Utilities/MediaUtilities.swift" : {
+    "const-values" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/MediaUtilities.swiftconstvalues",
+    "dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/MediaUtilities.d",
+    "diagnostics" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/MediaUtilities.dia",
+    "index-unit-output-path" : "/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/MediaUtilities.o",
+    "llvm-bc" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/MediaUtilities.bc",
+    "object" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/MediaUtilities.o",
+    "swift-dependencies" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/MediaUtilities.swiftdeps",
+    "swiftmodule" : "/Users/hassanemeite/Documents/code/IOS/Coupe/.build/TestDerivedData/Build/Intermediates.noindex/Coupe.build/Debug-iphonesimulator/Coupe.build/Objects-normal/x86_64/MediaUtilities~partial.swiftmodule"
+  }
+}

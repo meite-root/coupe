@@ -1,0 +1,160 @@
+{
+  "source": "/Users/hassanemeite/Documents/code/IOS/Coupe/Coupe/Features/Annotations/AnnotationDetailView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Annotation",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 46
+        }
+      },
+      {
+        "comment": "",
+        "key": "Delete Annotation?",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 63
+        }
+      },
+      {
+        "comment": "",
+        "key": "Couldn’t Save Annotation",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 69
+        }
+      },
+      {
+        "comment": "",
+        "key": "Source",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 24
+        }
+      },
+      {
+        "comment": "",
+        "key": "Selection playback",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 29
+        }
+      },
+      {
+        "comment": "",
+        "key": "Annotation",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 34
+        }
+      },
+      {
+        "comment": "",
+        "key": "Project",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 25
+        }
+      },
+      {
+        "comment": "",
+        "key": "Range",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 26
+        }
+      },
+      {
+        "comment": "",
+        "key": "Duration",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 27
+        }
+      },
+      {
+        "comment": "",
+        "key": "Play Selection",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 30
+        }
+      },
+      {
+        "comment": "",
+        "key": "Plays this range from the original source without creating a media file",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 32
+        }
+      },
+      {
+        "comment": "",
+        "key": "Annotation text",
+        "location": {
+          "startingColumn": 41,
+          "startingLine": 37
+        }
+      },
+      {
+        "comment": "",
+        "key": "Delete Annotation",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 40
+        }
+      },
+      {
+        "comment": "",
+        "key": "Deletes only this annotation and keeps the source media and clips",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 43
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 50
+        }
+      },
+      {
+        "comment": "",
+        "key": "Delete Annotation",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 64
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 65
+        }
+      },
+      {
+        "comment": "",
+        "key": "The source media and extracted clips will not be changed.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 67
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 71
+        }
+      }
+    ]
+  },
+  "version": 1
+}

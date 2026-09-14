@@ -1,0 +1,56 @@
+{
+  "source": "/Users/hassanemeite/Documents/code/IOS/Coupe/Coupe/Features/Editor/SelectionControl.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Stop locked selection",
+        "location": {
+          "startingColumn": 37,
+          "startingLine": 39
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start locked selection",
+        "location": {
+          "startingColumn": 63,
+          "startingLine": 39
+        }
+      },
+      {
+        "comment": "",
+        "key": "Alternative to the hold and slide gesture",
+        "location": {
+          "startingColumn": 56,
+          "startingLine": 41
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start %@",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 13
+        }
+      },
+      {
+        "comment": "",
+        "key": "Now %@",
+        "location": {
+          "startingColumn": 87,
+          "startingLine": 13
+        }
+      },
+      {
+        "comment": "",
+        "key": "Selected %@",
+        "location": {
+          "startingColumn": 147,
+          "startingLine": 13
+        }
+      }
+    ]
+  },
+  "version": 1
+}

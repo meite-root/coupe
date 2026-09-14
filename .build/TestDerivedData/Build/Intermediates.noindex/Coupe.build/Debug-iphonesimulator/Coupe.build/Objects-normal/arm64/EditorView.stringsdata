@@ -1,0 +1,280 @@
+{
+  "source": "/Users/hassanemeite/Documents/code/IOS/Coupe/Coupe/Features/Editor/EditorView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Couldn’t Complete Action",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 51
+        }
+      },
+      {
+        "comment": "",
+        "key": "Delete Clip?",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 52
+        }
+      },
+      {
+        "comment": "",
+        "key": "Delete Annotation?",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 55
+        }
+      },
+      {
+        "comment": "",
+        "key": "Editor mode",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 81
+        }
+      },
+      {
+        "comment": "",
+        "key": "Editor mode",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 86
+        }
+      },
+      {
+        "comment": "",
+        "key": "Mode cannot change during an active selection",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 88
+        }
+      },
+      {
+        "comment": "",
+        "key": "Choose whether a selected range becomes an exported clip or a source annotation",
+        "location": {
+          "startingColumn": 98,
+          "startingLine": 88
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 151,
+          "startingLine": 51
+        }
+      },
+      {
+        "comment": "",
+        "key": "Delete",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 53
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 87,
+          "startingLine": 53
+        }
+      },
+      {
+        "comment": "",
+        "key": "The exported clip file will be removed. The source media will not change.",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 54
+        }
+      },
+      {
+        "comment": "",
+        "key": "Delete",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 56
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 93,
+          "startingLine": 56
+        }
+      },
+      {
+        "comment": "",
+        "key": "The source media and extracted clips will not change.",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 57
+        }
+      },
+      {
+        "comment": "",
+        "key": "Playback position",
+        "location": {
+          "startingColumn": 155,
+          "startingLine": 67
+        }
+      },
+      {
+        "comment": "",
+        "key": "Moves the main player backward by 10 seconds",
+        "location": {
+          "startingColumn": 75,
+          "startingLine": 72
+        }
+      },
+      {
+        "comment": "",
+        "key": "Moves the main player forward by 10 seconds",
+        "location": {
+          "startingColumn": 75,
+          "startingLine": 75
+        }
+      },
+      {
+        "comment": "",
+        "key": "Back 10 seconds",
+        "location": {
+          "startingColumn": 66,
+          "startingLine": 71
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pause",
+        "location": {
+          "startingColumn": 82,
+          "startingLine": 73
+        }
+      },
+      {
+        "comment": "",
+        "key": "Play",
+        "location": {
+          "startingColumn": 92,
+          "startingLine": 73
+        }
+      },
+      {
+        "comment": "",
+        "key": "Forward 10 seconds",
+        "location": {
+          "startingColumn": 65,
+          "startingLine": 74
+        }
+      },
+      {
+        "comment": "",
+        "key": "Clips",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 96
+        }
+      },
+      {
+        "comment": "",
+        "key": "Your selected portions will appear here.",
+        "location": {
+          "startingColumn": 45,
+          "startingLine": 97
+        }
+      },
+      {
+        "comment": "",
+        "key": "Retry Export",
+        "location": {
+          "startingColumn": 65,
+          "startingLine": 101
+        }
+      },
+      {
+        "comment": "",
+        "key": "Delete",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 102
+        }
+      },
+      {
+        "comment": "",
+        "key": "Annotations",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 109
+        }
+      },
+      {
+        "comment": "",
+        "key": "Hold the selection button while the portion you want to annotate plays.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 111
+        }
+      },
+      {
+        "comment": "",
+        "key": "Edit annotation",
+        "location": {
+          "startingColumn": 41,
+          "startingLine": 121
+        }
+      },
+      {
+        "comment": "",
+        "key": "Opens the annotation text editor",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 122
+        }
+      },
+      {
+        "comment": "",
+        "key": "Delete",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 125
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@ – %@ • %@",
+        "location": {
+          "startingColumn": 117,
+          "startingLine": 219
+        }
+      },
+      {
+        "comment": "",
+        "key": "Annotation from %@ to %@, %@",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 237
+        }
+      },
+      {
+        "comment": "",
+        "key": "Moves the main player to the start of this annotation",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 238
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@ – %@ • %@",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 228
+        }
+      }
+    ]
+  },
+  "version": 1
+}

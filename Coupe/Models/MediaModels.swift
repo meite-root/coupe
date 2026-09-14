@@ -15,9 +15,15 @@ final class MediaProject {
     var durationSeconds: Double
     var thumbnailRelativePath: String?
     @Relationship(deleteRule: .cascade, inverse: \Clip.project) var clips: [Clip]
+    @Relationship(deleteRule: .cascade, inverse: \MediaAnnotation.project) var annotations: [MediaAnnotation]
 
     var mediaKind: MediaKind { MediaKind(rawValue: mediaKindRaw) ?? .audio }
     var sortedClips: [Clip] { clips.sorted { $0.startSeconds < $1.startSeconds } }
+    var sortedAnnotations: [MediaAnnotation] {
+        annotations.sorted {
+            $0.startSeconds == $1.startSeconds ? $0.createdAt < $1.createdAt : $0.startSeconds < $1.startSeconds
+        }
+    }
 
     init(id: UUID = UUID(), title: String, importedAt: Date = .now, mediaKind: MediaKind,
          sourceFilename: String, managedSourceRelativePath: String, durationSeconds: Double,
@@ -27,6 +33,7 @@ final class MediaProject {
         self.managedSourceRelativePath = managedSourceRelativePath
         self.durationSeconds = durationSeconds; self.thumbnailRelativePath = thumbnailRelativePath
         self.clips = []
+        self.annotations = []
     }
 }
 

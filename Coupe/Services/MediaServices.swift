@@ -46,23 +46,32 @@ struct ThumbnailService: Sendable {
 
 struct ClipExportService: Sendable {
     let store: ManagedMediaStore
-    func export(project: MediaProject, clip: Clip) async throws -> String {
-        let source = store.url(for: project.managedSourceRelativePath), asset = AVURLAsset(url: source)
+    func export(_ request: ClipExportRequest) async throws -> String {
+        let source = store.url(for: request.sourceRelativePath), asset = AVURLAsset(url: source)
         let compatible = AVAssetExportSession.exportPresets(compatibleWith: asset)
         let preset = compatible.contains(AVAssetExportPresetPassthrough) ? AVAssetExportPresetPassthrough : AVAssetExportPresetHighestQuality
         guard let session = AVAssetExportSession(asset: asset, presetName: preset) else { throw ExportError.unsupported }
-        let ext = project.mediaKind == .video ? "mov" : "m4a"
-        let type: AVFileType = project.mediaKind == .video ? .mov : .m4a
-        let relative = store.clipRelativePath(projectID: project.id, clipID: clip.id, extension: ext)
+        let ext = request.mediaKind == .video ? "mov" : "m4a"
+        let type: AVFileType = request.mediaKind == .video ? .mov : .m4a
+        let relative = store.clipRelativePath(projectID: request.projectID, clipID: request.clipID, extension: ext)
         let destination = store.url(for: relative)
         try store.fileManager.createDirectory(at: destination.deletingLastPathComponent(), withIntermediateDirectories: true)
         try? store.fileManager.removeItem(at: destination)
-        session.timeRange = CMTimeRange(start: CMTime(seconds: clip.startSeconds, preferredTimescale: 600),
-                                        end: CMTime(seconds: clip.endSeconds, preferredTimescale: 600))
+        session.timeRange = CMTimeRange(start: CMTime(seconds: request.startSeconds, preferredTimescale: 600),
+                                        end: CMTime(seconds: request.endSeconds, preferredTimescale: 600))
         do { try await session.export(to: destination, as: type); return relative }
         catch { try? store.fileManager.removeItem(at: destination); throw error }
     }
     enum ExportError: LocalizedError { case unsupported; var errorDescription: String? { "This media cannot be exported on this device." } }
+}
+
+struct ClipExportRequest: Sendable {
+    let projectID: UUID
+    let clipID: UUID
+    let sourceRelativePath: String
+    let mediaKind: MediaKind
+    let startSeconds: Double
+    let endSeconds: Double
 }
 
 @MainActor @Observable
@@ -77,6 +86,7 @@ final class EditorPlaybackController {
 
     func load(url: URL, duration: Double) {
         cleanup(); self.duration = duration
+        failureMessage = AudioSessionService.activate()
         player.replaceCurrentItem(with: AVPlayerItem(url: url)); isReady = true
         timeObserver = player.addPeriodicTimeObserver(forInterval: CMTime(seconds: 0.05, preferredTimescale: 600), queue: .main) { [weak self] time in
             Task { @MainActor in
@@ -87,6 +97,7 @@ final class EditorPlaybackController {
     func toggle() { isPlaying ? player.pause() : player.play(); isPlaying.toggle() }
     func play() { player.play(); isPlaying = true }
     func seek(to seconds: Double) { player.seek(to: CMTime(seconds: SelectionMachine.clamp(seconds, duration: duration), preferredTimescale: 600)) }
+    func skip(by seconds: Double) { seek(to: currentTime + seconds) }
     func cleanup() {
         if let timeObserver { player.removeTimeObserver(timeObserver); self.timeObserver = nil }
         player.pause(); player.replaceCurrentItem(with: nil); isReady = false; isPlaying = false

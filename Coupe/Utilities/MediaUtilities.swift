@@ -1,5 +1,36 @@
 import Foundation
 
+enum EditorMode: String, CaseIterable, Identifiable {
+    case extract = "Extract"
+    case annotate = "Annotate"
+
+    var id: Self { self }
+}
+
+enum SelectionCompletionAction: Equatable {
+    case createClip(ClosedRange<Double>)
+    case createAnnotation(ClosedRange<Double>)
+}
+
+enum SelectionCompletionRouter {
+    static func action(for mode: EditorMode, range: ClosedRange<Double>) -> SelectionCompletionAction {
+        switch mode {
+        case .extract: .createClip(range)
+        case .annotate: .createAnnotation(range)
+        }
+    }
+}
+
+enum AnnotationRange {
+    static func validated(start: Double, end: Double, duration: Double) -> ClosedRange<Double>? {
+        guard start.isFinite, end.isFinite, duration.isFinite, duration > 0 else { return nil }
+        let lower = SelectionMachine.clamp(start, duration: duration)
+        let upper = SelectionMachine.clamp(end, duration: duration)
+        guard upper > lower, upper - lower >= SelectionMachine.minimumDuration else { return nil }
+        return lower...upper
+    }
+}
+
 enum TimeFormatter {
     static func string(_ seconds: Double) -> String {
         let value = max(0, seconds.isFinite ? Int(seconds) : 0)
